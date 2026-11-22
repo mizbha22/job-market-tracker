@@ -1,4 +1,19 @@
+# Python
 venv/
-.env
-data/raw/
 __pycache__/
+*.pyc
+
+# Secrets
+.env
+
+# Data (download from Kaggle; regenerate with the scripts)
+data/raw/*
+!data/raw/.gitkeep
+data/clean/*
+!data/clean/.gitkeep
+
+# Editor / OS
+.vscode/
+Thumbs.db
+.DS_Store
+~$*
